@@ -1,27 +1,10 @@
-h1{
-	color: green;
-}
-*{
-	font-family: 'Indie Flower', cursive;
-}
 
-* {
-   outline: 1px solid red !important;
-}
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-@media only screen and (max-width: 100px) and (orientation: landscape) {
-	p{
-		display: none;
-	}
-}
 .row {	
 	width:100%;
+}
+.flex
+{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -58,3 +41,32 @@ h1{
 .col-11{
 	width:91.66%;
 }
+#Fondo
+{
+	width: 100%;
+}
+#FotoSobreMi
+{
+    position: relative;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+
+}
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+.skills {
+    text-align: right; /* Right-align text */
+    padding: 5px; /* Add some padding */
+    color: white; /* White text color */
+}
+.Elect{width: 90%; background-color:  #900c3f}
+.Visual{width: 80%; background-color:  #c7185b}
+.C{width: 80%; background-color:  #cd457c}
+.Matlab{width: 60%; background-color:  #F2739c}
+.Ingles{width: 60%; background-color:  #cccccc}
+.Redes{width: 50%; background-color:  #7a7879}
